@@ -14,6 +14,10 @@ A collection of the greatest hits from the field of algorithm design
 
 ## Sorting
 
+* [Merge Sort](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/sorting/MergeSort.py) Vanilla implementation of the basic _divide and conquer_ sorting algorithm. **O(n log n)** time **O(n)** space 
+
+* [Quick Sort](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/sorting/QuickSort.py) Randomized, in-place quick sort. **O(n log n)** time **O(1)** space  
+
 ## Tree
 
 ## Data Structures
