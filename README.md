@@ -11,6 +11,11 @@ A collection of the greatest hits from the field of algorithm design
 
 * [Karger's Min Cut](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/graph%20algorithms/Karger's%20min%20cut.py):
   Randomized algorithm to compute the _minimum cut_ in an undirected graph. Implemented on adjacency lists, currently poorly optimized. **O(m^2)** time, **O(m)** space
+  
+#### Shortest paths
+
+* [Johnson's all pairs shortest paths](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/graph%20algorithms/Johnson's%20APSP/Johnson's.py): Classic algorithm for the all-pairs shortest paths in a directed graph. Uses a round of Bellman Ford's single source shortest path algorithm to find a reweighted version of the original graph without negative edges, and subsequently runs Dijkstra's **n** times. Time complexity depends on the particular implementation of Dijkstra and Bellman Ford
+**optimizations**:
 
 ## Sorting
 
