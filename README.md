@@ -7,7 +7,7 @@ A collection of the greatest hits from the world of algorithms.
 
 ## Graph 
 
-* [Traveling Salesman](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/graph%20algorithms/TSP/TSP.py): Dynamic programming solution for the TSP problem. Optimal solution but memory intensive and quite slow for graphs with n >= 25.
+* [Traveling Salesman](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/graph%20algorithms/TSP/TSP.py): Dynamic programming solution for the TSP problem. Finds the optimal tour but is memory intensive and quite slow for graphs with n >= 25.
 
 #### Topology
 
@@ -39,6 +39,6 @@ Perhaps one of the most popular algorithm for the shortest path problem in a non
 
 * [2Sum](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/mixed/2SUM/2SUM.py): Finding two numbers such that their sum is equal to a certain target.
 
-* [Heap Median](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/mixed/heapMedian/median_maintenance.py):
+* [Heap Median](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/mixed/heapMedian/median_maintenance.py): Running median maintenance with double heap.
 
 * [Scheduling](https://github.com/Zymrael/Algorithm-greatest-hits/tree/master/mixed/Scheduling): Various simple greedy algorithms for job scheduling
