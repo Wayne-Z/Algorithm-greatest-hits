@@ -9,15 +9,21 @@ A collection of the greatest hits from the field of algorithm design
 
 #### Topology
 
-* [Karger's Min Cut](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/graph%20algorithms/Karger's%20min%20cut.py):
+* [Karger's Min Cut](https://github.com/Zymrael/Algorithm-greatest-hits/tree/master/graph%20algorithms/Karger's%20min%20cut):
   Randomized algorithm to compute the _minimum cut_ in an undirected graph. Implemented on adjacency lists, currently poorly optimized. **O(m^2)** time, **O(m)** space
   
 #### Shortest paths
 
-* 
+* [Dijkstra's single source shortest paths](https://github.com/Zymrael/Algorithm-greatest-hits/tree/master/graph%20algorithms/Dijkstra):
+Perhaps one of the most popular algorithm for the shortest path problem in a non-negative edge graph. This particular implementation does not use **heaps** and runs in **O(n^2)** instead of **O(mn)**
+
 * [Johnson's all pairs shortest paths](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/graph%20algorithms/Johnson's%20APSP/Johnson's.py): Classic algorithm for the all-pairs shortest paths in a directed graph. Uses a round of Bellman Ford's single source shortest path algorithm to find a reweighted version of the original graph without negative edges, and subsequently runs Dijkstra's **n** times. Time complexity depends on the particular implementation of Dijkstra and Bellman Ford
 
-**Optimizations**: This particular Bellman Ford implementation uses the standard dynamic programming space optimization of remembering only the needed inputs for the recurrence. The version of Dijkstra used here is the same as the standalone version present in this repo. It does **NOT** use heaps yet, and thus its running time is not optimized. 
+**Optimizations**: This particular Bellman Ford implementation uses the standard dynamic programming space optimization technique of remembering only the needed inputs for the recurrence.
+
+#### Minimum Spanning Tree
+
+* [Prim's minimum spanning tree](https://github.com/Zymrael/Algorithm-greatest-hits/tree/master/graph%20algorithms/Prim's%20MST):
 
 ## Sorting
 
