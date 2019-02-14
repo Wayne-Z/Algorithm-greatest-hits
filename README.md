@@ -11,7 +11,7 @@ A collection of the greatest hits from the world of algorithms.
 
 #### Topology
 
-* [Karger's Min Cut](https://github.com/Zymrael/Algorithm-greatest-hits/tree/master/graph%20algorithms/Karger's%20min%20cut):
+* [Karger's minimum cut](https://github.com/Zymrael/Algorithm-greatest-hits/tree/master/graph%20algorithms/Karger's%20min%20cut):
   Randomized algorithm to compute the _minimum cut_ in an undirected graph. Implemented on adjacency lists, currently poorly optimized. **O(m^2)** time, **O(m)** space
   
 #### Shortest paths
