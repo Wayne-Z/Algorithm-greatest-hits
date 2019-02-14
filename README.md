@@ -14,8 +14,10 @@ A collection of the greatest hits from the field of algorithm design
   
 #### Shortest paths
 
+* 
 * [Johnson's all pairs shortest paths](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/graph%20algorithms/Johnson's%20APSP/Johnson's.py): Classic algorithm for the all-pairs shortest paths in a directed graph. Uses a round of Bellman Ford's single source shortest path algorithm to find a reweighted version of the original graph without negative edges, and subsequently runs Dijkstra's **n** times. Time complexity depends on the particular implementation of Dijkstra and Bellman Ford
-**optimizations**:
+
+**Optimizations**: This particular Bellman Ford implementation uses the standard dynamic programming space optimization of remembering only the needed inputs for the recurrence. The version of Dijkstra used here is the same as the standalone version present in this repo. It does **NOT** use heaps yet, and thus its running time is not optimized. 
 
 ## Sorting
 
