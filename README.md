@@ -34,3 +34,9 @@ Perhaps one of the most popular algorithm for the shortest path problem in a non
 ## Tree
 
 ## Data Structures
+
+## Mixed -- practice problems
+
+* [2Sum](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/mixed/2SUM/2SUM.py): Finding two numbers such that their sum is equal to a certain target.
+
+*[Heap Median](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/mixed/heapMedian/median_maintenance.py):
