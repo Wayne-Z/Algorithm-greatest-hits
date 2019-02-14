@@ -3,7 +3,7 @@
 A collection of the greatest hits from the field of algorithm design
 
 ## Personal collection of algorithms
-#### Implemented from scratch in _Python_ (definitely **not** optimized, do not blame me!)
+#### Implemented from scratch in _Python_ (definitely **not** optimized, do not blame me!). The goal of this repo is mostly educational. If you spot any mistakes and/or have any suggestions on how to optimize or refactor some of the code, feel free to contribute or contact me!
 
 ## Graph 
 
