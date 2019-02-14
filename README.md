@@ -33,11 +33,9 @@ Perhaps one of the most popular algorithm for the shortest path problem in a non
 
 * [Quick Sort](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/sorting/QuickSort.py): Randomized, in-place quick sort. **O(n log n)** time, **O(1)** space  
 
-## Tree
-
-## Data Structures
-
 ## Mixed -- practice problems
+
+* [Karatsuba's multiplication](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/math/Karatsuba%20mult.py): A faster way to multiply two numbers 
 
 * [2Sum](https://github.com/Zymrael/Algorithm-greatest-hits/blob/master/mixed/2SUM/2SUM.py): Finding two numbers such that their sum is equal to a certain target.
 
